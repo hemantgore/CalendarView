@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Set up xcode-version from maxim-lobanov repo
         uses: maxim-lobanov/setup-xcode@v1.6.0
-        with: xcode-version: latest
+#        with: xcode-version: latest
       - name: Checkout
         uses: actions/checkout@v3
       - name: Set Default Scheme
